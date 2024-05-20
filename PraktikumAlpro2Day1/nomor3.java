@@ -1,6 +1,6 @@
-package PraktikumAlproDay1;
+package PraktikumAlpro2Day1;
 import java.util.Scanner;
-public class TugasPraktikumNo3 {
+public class nomor3 {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.print("Masukkan bilangan integer : ");

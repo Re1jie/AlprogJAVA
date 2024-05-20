@@ -1,4 +1,4 @@
-package tugasAlprog2;
+
 import java.util.Scanner;
 public class nomor1 {
     public static boolean ValidasiUtama(String Sandi){

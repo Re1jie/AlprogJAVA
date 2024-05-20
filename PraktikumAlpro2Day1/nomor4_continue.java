@@ -1,6 +1,6 @@
-package PraktikumAlproDay1;
+package PraktikumAlpro2Day1;
 
-public class TugasPraktikumNo4_2 {
+public class nomor4_continue {
     //Contoh menggunakan continue
     public static void main(String args[])
     {

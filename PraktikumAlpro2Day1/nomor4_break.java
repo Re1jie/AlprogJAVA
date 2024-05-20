@@ -1,6 +1,6 @@
-package PraktikumAlproDay1;
+package PraktikumAlpro2Day1;
 
-public class TugasPraktikumNo4_1 {
+public class nomor4_break {
     //Contoh kasus loop dengan break
     public static void main(String[] args){
         // Loop inisiasi i dari 0 hingga 100

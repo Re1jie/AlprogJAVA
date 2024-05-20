@@ -1,6 +1,6 @@
-package tugasAlprog2;
+
 import java.util.Scanner;
-public class nomor3simplified {
+public class nomor3 {
     static double deret(int x) {
         double nilai = 0;
         for (int i = 1; i <= x; i++) {

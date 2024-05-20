@@ -1,4 +1,4 @@
-package tugasAlprog2;
+
 import java.util.Scanner;
 public class nomor2 {
     public static int numberOfDaysInAYear(int tahun){
