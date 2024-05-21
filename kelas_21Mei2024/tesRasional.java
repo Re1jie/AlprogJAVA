@@ -11,16 +11,16 @@ public class tesRasional {
         Bil3 = Bil1.kaliKonstanta(10);
         Bil3.info();
 
+        Rasional Bil4 = new Rasional();
+        Bil4 = Bil1.Tambah(Bil2);
+        Bil4.info();
+
         //ngecek bil sama atau nggak
-        if(Bil1.IsSama(Bil3)){
+        if(Bil1.IsSama(Bil4)){
             System.out.println("Sama");
         } else {
             System.out.println("Tidak Sama");
         }
-
-        Rasional Bil4 = new Rasional();
-        Bil4 = Bil1.Tambah(Bil2);
-        Bil4.info();
 
         System.out.println("Nilai Desimal : "+Bil1.ToDesimal());
         Bil1.IsEqual(Bil2);
