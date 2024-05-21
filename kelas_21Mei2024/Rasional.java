@@ -30,8 +30,7 @@ public class Rasional{
     }
 
     public void info(){
-        System.out.println("Bilangan rasional dengan Pembilang = "+pemb);
-        System.out.println(" dan penyebut = "+peny);
+        System.out.println("Bilangan rasional dengan Pembilang = "+pemb+" dan penyebut "+peny);
     }
 
     public Rasional kaliKonstanta(int c){
