@@ -22,6 +22,6 @@ public class Lingkaran {
     }
 
     public void printInfo(){
-        System.out.println("Lingkaran : "+warna+", luas : "+hitungLuas());
+        System.out.println("Lingkaran "+warna+", luas : "+hitungLuas());
     }
 }
