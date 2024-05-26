@@ -5,6 +5,7 @@ public class Saham {
     private String nama;
     private double priorClosingPrice;
     private double currentPrice;
+    public double setpriorClosingPrice;
     
     public Saham(String simbol, String nama){
         this.simbol=simbol;
