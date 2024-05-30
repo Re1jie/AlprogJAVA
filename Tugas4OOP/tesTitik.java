@@ -14,7 +14,7 @@ public class tesTitik {
         point1.infoKuadran();
         point2.infoKuadran();
 
-        // Menghitung jarak antara dua titik
+        //cek Jarak
         double distance = point1.jarak(point2);
         System.out.println("Jarak antara point1 dan point2: " + distance);
     }

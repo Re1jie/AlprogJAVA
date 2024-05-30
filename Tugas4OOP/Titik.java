@@ -32,8 +32,8 @@ public class Titik {
         }
     }
     public double jarak(Titik p1){
-        int dx = p1 - this.x;
-        int dy = p1 - this.y;
+        int dx = p1.x - this.x;
+        int dy = p1.y - this.y;
         return Math.sqrt(dx * dx + dy * dy);
     }
     public void printInfo(){
