@@ -3,7 +3,7 @@ package Tugas4OOP;
 public class Titik {
     private int x;
     private int y;
-
+    
     public Titik(){
         x=0;
         y=0;
