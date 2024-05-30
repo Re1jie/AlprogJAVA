@@ -36,6 +36,11 @@ public class Titik {
         int dy = p1.y - this.y;
         return Math.sqrt(dx * dx + dy * dy);
     }
+    public void skala(Titik p1){
+        double scale = 0.5; //di skala kan sebeser 1/2 dari titik 2
+        this.x = (int) ((this.x - p1.x) * scale + p1.x);
+        this.y = (int) ((this.y - p1.y) * scale + p1.y);
+    }
     public void printInfo(){
         System.out.println("titik x saat ini : "+x);
         System.out.println("titik y saat ini : "+y);
