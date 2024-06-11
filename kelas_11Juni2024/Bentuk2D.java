@@ -46,3 +46,24 @@ class lingkaran extends Bentuk2D{
         return 2*Math.PI*jari;
     }
 }
+class persegi extends Bentuk2D{
+    private double panjang, lebar;
+
+    public persegi(){
+        super();
+        panjang = 0;
+        lebar = 1;
+    }
+
+    public persegi(double p, double l,String w){
+        super(w);
+        panjang = p;
+        lebar = l;
+    }
+    public double hitungLuas(){
+        return panjang*lebar;
+    }
+    public double hitungKeliling(){
+        return 2*(panjang*lebar);
+    }
+}
