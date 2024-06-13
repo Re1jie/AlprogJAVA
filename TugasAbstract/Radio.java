@@ -1,6 +1,6 @@
 package TugasAbstract;
 
-public class Radio implements interfaceElektronik, interfaceChannelTV{
+public class Radio implements interfaceElektronik, interfaceChannelRadio{
     private Boolean mesin;
     private int volume;
 
@@ -11,6 +11,7 @@ public class Radio implements interfaceElektronik, interfaceChannelTV{
         return mesin=false;
     }
     public void gantiChannel(int c){
+        
     }
     public int perbesarVolume(){
         return volume++;
