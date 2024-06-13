@@ -11,7 +11,7 @@ public class Radio implements interfaceElektronik, interfaceChannelRadio{
         return mesin=false;
     }
     public void gantiChannel(int c){
-        
+        System.out.println("Channel diganti!");
     }
     public int perbesarVolume(){
         return volume++;

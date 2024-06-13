@@ -18,7 +18,7 @@ public class Televisi implements interfaceElektronik, interfaceChannelTV{
         return mesin=false;
     }
     public void gantiChannel(int c) {
-      
+        System.out.println("Channel diganti!");
     }
       
 }
