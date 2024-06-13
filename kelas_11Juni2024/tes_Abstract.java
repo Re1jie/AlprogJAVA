@@ -7,5 +7,8 @@ public class tes_Abstract {
 
         persegi P = new persegi(3, 4, "blue");
         P.info();
+
+        //gk bisa mendeklarasikan, karena ini adalah class abstract
+        //Bentuk2d D = new Bentuk2D();
     }
 }
